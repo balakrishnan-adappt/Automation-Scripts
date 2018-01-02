@@ -17,7 +17,7 @@ public class selenium_session {
 	public static void main(String[] args) throws InterruptedException {
 		
 		/*launching browsers*/
-		switch(browser_name) { 
+		switch(browser_name) {  
 		
 		case "chrome":
 			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Bala\\Downloads\\chromedriver.exe");
