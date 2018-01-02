@@ -11,7 +11,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 public class selenium_session {
 	
 	public static WebDriver driver;
-	public static String browser_name="Chrome";
+	public static String browser_name="chrome";
 	
 	
 	public static void main(String[] args) throws InterruptedException {
@@ -19,7 +19,7 @@ public class selenium_session {
 		/*launching browsers*/
 		switch(browser_name) {
 		
-		case "Chrome":
+		case "chrome":
 			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Bala\\Downloads\\chromedriver.exe");
 			driver = new ChromeDriver();
 			System.out.println("Chrome browser has launched");
